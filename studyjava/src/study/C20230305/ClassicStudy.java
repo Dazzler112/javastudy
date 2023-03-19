@@ -31,5 +31,10 @@ public class ClassicStudy {
 			}
 			
 			System.out.println(t1.getTest());
+			
+			int[] arr = {1,2,3};
+			for (int i : arr) {
+				System.out.println(arr[i]);
+			}
 	}
 }
