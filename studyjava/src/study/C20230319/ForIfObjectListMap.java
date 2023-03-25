@@ -5,8 +5,9 @@ import java.util.*;
 public class ForIfObjectListMap {
 
 	public static void main(String[] args) {
+		//---------------증감자 정의--------------------------------------
 		int a = 0;
-		System.out.println(++a); //바로 연산됨(1이 바로 출력)
+		System.out.println(++a); //바로 연산됨(1이 바로 출력) (성질이 빠른놈이다!)
 		int b = 0;
 		System.out.println(b++);//바로 연산 안되고 연산뒤 호출해야 올라감(부끄럼쟁이 뒤에 숨기고있음)
 		System.out.println(b);
@@ -19,6 +20,7 @@ public class ForIfObjectListMap {
 		{//해당 조건은 여기다가 쓰고 for문은 반복할수 있게만 신경!
 			System.out.println(arr[i]);
 		}
+
 		
 		//하나하나 작은거부터 시작해서 큰것으로 만들수 있게
 		
